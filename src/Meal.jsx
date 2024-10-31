@@ -1,12 +1,10 @@
 export default function Meal({ meal }) {
   const styleMeal = {
-    border: "1px solid purple",
+    border: "2px solid blue",
     borderRadius: "10px",
     width: "20rem",
     padding: "1rem",
     margin: "2rem",
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
   };
 
   const buttoStyle = {
